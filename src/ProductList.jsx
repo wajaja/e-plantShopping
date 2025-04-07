@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { add}
+import { addItem } from './CartSlice';
 import './ProductList.css'
 import CartItem from './CartItem';
 function ProductList({ onHomeClick }) {
